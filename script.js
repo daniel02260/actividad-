@@ -171,7 +171,6 @@ function showRanking() {
 }
 
 showRanking();
-
 document.addEventListener('keydown', event => {
   if (event.key === 'ArrowLeft') playerMove(-1);
   else if (event.key === 'ArrowRight') playerMove(1);
